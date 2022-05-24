@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,600;1,300&family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./wallet.css");
+@import url("./dropdown.css");
+@import url("./footer.css");
+@import url("./bottomcontainer.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-page: #fbd983;
+  --bg-color2: #eeb331;
+  --bg-color3: #ac873d;
+  --text-color: #1b1a1a;
+
+  --shadow1: 1.1px 2.8px 2.2px rgba(0, 0, 0, 0.02), 2.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    5.1px 12.5px 10px rgba(0, 0, 0, 0.035), 9.2px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    17.1px 41.8px 33.4px rgba(0, 0, 0, 0.05), 41px 100px 80px rgba(0, 0, 0, 0.07);
+
+  --shadow2: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05), 100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Dosis", sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-color);
+  width: 100vw;
+}
+
+.landing-container {
+  width: 100vw;
+  overflow-y: hidden;
+}

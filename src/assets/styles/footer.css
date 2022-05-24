@@ -1,0 +1,55 @@
+section {
+    position: relative;
+}
+
+.footer-section {
+    padding: 3rem;
+    background-color: var(--bg-color2);
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.footer-list {
+    position: relative;
+}
+
+.footer-list li:before {
+    content: "";
+    width: 1px;
+    height: 13px;
+    background-color: #fff;
+    position: absolute;
+    left: -0.5rem;
+    margin-top: 4px;
+    opacity: 0.5;
+}
+
+.wave {
+    display: block;
+    height: 52px;
+    background-image: url("../img/wave.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+}
+
+.footerimg {
+    position: absolute;
+    height: 5rem;
+    width: auto;
+    top: -12px;
+    left: 43%;
+    right: 43%;
+}

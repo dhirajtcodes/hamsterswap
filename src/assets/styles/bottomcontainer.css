@@ -1,0 +1,11 @@
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #faca51;
+}
+
+.bottom-container > span {
+    display: flex;
+    gap: 1rem;
+}
