@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklandingpage=self.webpackChunklandingpage||[]).push([[853],{853:function(s,e,n){n.r(e);n(791);var a=n(126),i=n(355),l=n(184);e.default=function(){return(0,l.jsxs)("div",{className:"bottom-container",children:[(0,l.jsx)("p",{children:"Hamsterswap 2022. All Right Reserved"}),(0,l.jsxs)("span",{children:[(0,l.jsx)(a.Vs6,{}),(0,l.jsx)(a.meP,{}),(0,l.jsx)(i.Ww5,{})]})]})}}}]);
+//# sourceMappingURL=853.7bde8113.chunk.js.map
