@@ -33,9 +33,9 @@ body {
   background-color: var(--bg-page);
   color: var(--text-color);
   width: 100vw;
+  overflow-y: overlay;
 }
 
 .landing-container {
   width: 100vw;
-  overflow-y: hidden;
 }

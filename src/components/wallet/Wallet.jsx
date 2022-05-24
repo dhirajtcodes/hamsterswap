@@ -7,6 +7,21 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 const Wallet = () => {
   const [swichToggle, setSwitchToggle] = useState(false);
 
+  const currency = [
+    {
+      id: "USD",
+      name: "USD",
+    },
+    {
+      id: "INR",
+      name: "INR",
+    },
+    {
+      id: "Euro",
+      name: "Euro",
+    }
+  ];
+
   const items = [
     {
       name: "Doge",
@@ -68,7 +83,7 @@ const Wallet = () => {
                 defaultValue={"0.00"}
                 style={{ width: "13rem" }}
               />
-              <DropDown name="Select Currency" items={items} />
+              <DropDown name="Select Currency" items={currency} />
             </span>
           </div>
           <span className="wallet-bottom-text">
